@@ -68,6 +68,7 @@ namespace QualitestPageTest
             CleanUp(driver);
         }
 
+
         [Test, Category("Negative Test - Invalid Inputs")]
         public void InValidPhoneNumber_SentFail_ReturnsTrue()
         {
