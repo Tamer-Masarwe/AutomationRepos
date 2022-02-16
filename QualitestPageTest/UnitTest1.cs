@@ -137,7 +137,6 @@ namespace QualitestPageTest
             CleanUp(driver);
         }
 
-
        public void NavigateToContactUsPage(IWebDriver driver) 
         {
             driver.Navigate().GoToUrl(NavigationPage);
